@@ -72,7 +72,7 @@ aside ul li {
     margin: 4px;
     padding: 6px;
     cursor: pointer;
-    transition: all ease-in .5s;
+    transition: all ease-in .3s;
 }
 
 aside ul li:hover {
@@ -82,7 +82,13 @@ aside ul li:hover {
 aside ul li i {
     float: right;
     font-size: small;
+    transition: all ease-in .3s;
     margin-top: 3px;
+}
+
+aside ul li:hover i {
+    transform: rotate(180deg);
+    color: green;
 }
 
 .active {
